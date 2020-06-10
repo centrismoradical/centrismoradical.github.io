@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020/medicina/o-estudo-que-projetou-distanciamento-social-ate-2022-por-causa-da-covid19</loc>
+<loc>http://localhost:4000/2020/o-estudo-que-projetou-distanciamento-social-ate-2022-por-causa-da-covid19</loc>
 <lastmod>2020-04-16T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/medicina/a-falacia-ecologica-e-o-estudo-correlacionando-a-vacina-bcg-com-protecao-a-covid19</loc>
+<loc>http://localhost:4000/2020/a-falacia-ecologica-e-o-estudo-correlacionando-a-vacina-bcg-com-protecao-a-covid19.md</loc>
 <lastmod>2020-04-29T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2020/medicina/tamanho-subnotificacao-covid19-brasil</loc>
+<loc>http://localhost:4000/2020/tamanho-subnotificacao-covid19-brasil</loc>
 <lastmod>2020-05-06T00:00:00-03:00</lastmod>
 </url>
 <url>
