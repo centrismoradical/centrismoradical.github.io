@@ -293,17 +293,17 @@ input[type=checkbox] {
 /* Barra de navegaçao */
 nav {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: inline-block;
   a {
     text-decoration: none;
     font-size: 14px;
-    background-color: #f3f3f3 !important;
-    border: 1px solid #dadada !important;
+    background-color: #005b82ff !important;
+    // border: 1px solid #dadada !important;
     border-top: none;
     border-radius: 0 0 0.5rem 0.5rem;
-    color: black;
+    color: white;
     font-weight: 800;
     padding: 5px;
     margin-left: 0;
@@ -316,7 +316,7 @@ nav {
     text-decoration: none;
   }
   a:visited {
-    color: black;
+    color: white;
   }
 }
 .nav-icons {
@@ -325,7 +325,7 @@ nav {
 .current {
   padding-bottom: 10px;
   margin-bottom: 0px;
-  background-color: #e6e6e6 !important;
+  background-color: rgb(0, 62, 88) !important;
 }
 
 
@@ -429,7 +429,8 @@ nav {
 h1  {
   text-align: left;
   margin-bottom: 5px;
-  max-width: 600px;
+  max-width: 550px;
+  margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--header-font);
@@ -503,9 +504,7 @@ video {
     margin-top: 6px;
   }
 }
-.apresentacao {
-  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;;
-}
+
 
 .svg-seguir {
   padding: 1px;
@@ -514,6 +513,9 @@ video {
   text-align: center;
   max-width: 500px;
   margin: 0 auto;
+  line-height: 1.2;
+  font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif;;
+
 }
 .item {
   flex: 1;
@@ -685,6 +687,7 @@ button {
 
 #ultimas {
   padding-top: 10px;
+  text-align: center;
 }
 .post-block {
   display: block;
@@ -697,7 +700,9 @@ button {
   ul li {
     line-height: 1;
     margin-bottom: 35px;
-    padding: 5px;
+    padding: 10px;
+    border: 2px solid #005b82ff;
+    border-radius: 5px
   }
   li h2 {
     line-height: 1.2;
@@ -715,7 +720,16 @@ button {
     text-decoration: underline;
   }
 }
-
+.post-info-list {
+  font-size: 1rem;
+  color: rgb(150, 150, 150);
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+}
 .feat-img {
     object-fit: contain;
     width: 100%;
@@ -740,12 +754,17 @@ button {
 .post-info {
   font-size: 1rem;
   color: rgb(150, 150, 150);
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 0;
+  text-align: center;
   padding-bottom: 0;
-  margin-right: 10px;
+  width: 100%;
   border-radius: 4px;
   display: block;
+}
+.title {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .MBE {background-color: rgb(250, 201, 201);}
@@ -902,7 +921,13 @@ a.footnote:after {
   fill: gray;
   width: 20px;
 }
-
+.icon-header {
+  fill: gray;
+  height: 25px;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 25px;
+}
 
 .coisas {
   margin: 0 auto;
@@ -911,6 +936,7 @@ a.footnote:after {
   display: inline;
   text-align: center;
 }
+
 .license {
   display: block;
   width: 100%;

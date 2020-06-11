@@ -50,7 +50,7 @@ defaults:
     values:
       layout: "post"
       author: "Centrismo Radical"
-      permalink: "/:year/:title"
+      permalink: "/:title"
 #defaults para todo o resto
   - scope:
       path: ""

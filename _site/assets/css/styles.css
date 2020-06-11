@@ -86,14 +86,14 @@ input[type=checkbox] { transform: scale(1.5); }
 .botao-serif { font-family: var(--header-font); font-size: 1em; }
 
 /* Barra de navegaçao */
-nav { margin: 0 auto; text-align: left; width: 100%; display: inline-block; }
-nav a { text-decoration: none; font-size: 14px; background-color: #f3f3f3 !important; border: 1px solid #dadada !important; border-top: none; border-radius: 0 0 0.5rem 0.5rem; color: black; font-weight: 800; padding: 5px; margin-left: 0; display: inline-block; margin-bottom: 10px; }
+nav { margin: 0 auto; text-align: center; width: 100%; display: inline-block; }
+nav a { text-decoration: none; font-size: 14px; background-color: #005b82ff !important; border-top: none; border-radius: 0 0 0.5rem 0.5rem; color: white; font-weight: 800; padding: 5px; margin-left: 0; display: inline-block; margin-bottom: 10px; }
 nav a:hover { padding-bottom: 10px; margin-bottom: 0px; text-decoration: none; }
-nav a:visited { color: black; }
+nav a:visited { color: white; }
 
 .nav-icons { fill: var(--link-color); }
 
-.current { padding-bottom: 10px; margin-bottom: 0px; background-color: #e6e6e6 !important; }
+.current { padding-bottom: 10px; margin-bottom: 0px; background-color: #003e58 !important; }
 
 .fa, .fas, .fab, .far { padding-right: 5px; }
 
@@ -127,7 +127,7 @@ nav a:visited { color: black; }
 #markdown-toc a { text-decoration: none; }
 #markdown-toc a:hover { text-decoration: underline; }
 
-h1 { text-align: left; margin-bottom: 5px; max-width: 600px; }
+h1 { text-align: left; margin-bottom: 5px; max-width: 550px; margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--header-font); color: var(--font-color-header); font-weight: bold; line-height: 1.2; margin-bottom: 0.2em; }
 
@@ -157,11 +157,9 @@ video { display: block; margin: 0 auto; max-width: 100%; margin-top: 20px; margi
 .abertura h2 { margin-bottom: 1px; }
 .abertura p { margin-top: 6px; }
 
-.apresentacao { font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif; }
-
 .svg-seguir { padding: 1px; }
 
-.intro { text-align: center; max-width: 500px; margin: 0 auto; }
+.intro { text-align: center; max-width: 500px; margin: 0 auto; line-height: 1.2; font-family: 'Noto Serif', Georgia, 'Times New Roman', Times, serif; }
 
 .item { flex: 1; }
 
@@ -209,15 +207,17 @@ button { border: none; }
 
 .post-author { font-size: 16px; color: gray; text-align: right; margin-top: 0; }
 
-#ultimas { padding-top: 10px; }
+#ultimas { padding-top: 10px; text-align: center; }
 
 .post-block { display: block; }
 
 .post-list ul { list-style-type: none; padding-left: 0; }
-.post-list ul li { line-height: 1; margin-bottom: 35px; padding: 5px; }
+.post-list ul li { line-height: 1; margin-bottom: 35px; padding: 10px; border: 2px solid #005b82ff; border-radius: 5px; }
 .post-list li h2 { line-height: 1.2; margin-top: 0; margin-bottom: 5px; }
 .post-list li h2 a { text-decoration: none; font-size: 24px; color: var(--font-color); font-weight: bold; }
 .post-list li h2 a:hover { color: var(--link-color); text-decoration: underline; }
+
+.post-info-list { font-size: 1rem; color: #969696; margin-top: 10px; margin-bottom: 0; padding-bottom: 0; width: 100%; border-radius: 4px; display: block; }
 
 .feat-img { object-fit: contain; width: 100%; margin-right: 10px; margin-left: 10px; }
 
@@ -225,7 +225,9 @@ button { border: none; }
 
 #tag-posts { margin-top: 5px; }
 
-.post-info { font-size: 1rem; color: #969696; margin-top: 5px; margin-bottom: 0; padding-bottom: 0; margin-right: 10px; border-radius: 4px; display: block; }
+.post-info { font-size: 1rem; color: #969696; margin-top: 10px; margin-bottom: 0; text-align: center; padding-bottom: 0; width: 100%; border-radius: 4px; display: block; }
+
+.title { text-align: center; margin: 0 auto; }
 
 .MBE { background-color: #fac9c9; }
 
@@ -290,6 +292,8 @@ a.footnote:after { content: "]"; }
 .footer-col ul li { list-style-type: none; }
 
 .icon-footer { fill: gray; width: 20px; }
+
+.icon-header { fill: gray; height: 25px; margin-right: 3px; margin-left: 3px; width: 25px; }
 
 .coisas { margin: 0 auto; font-size: 16px; color: gray; display: inline; text-align: center; }
 
