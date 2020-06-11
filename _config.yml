@@ -58,6 +58,12 @@ defaults:
     values:
       layout: "default"
 
+
+image:
+  path: /assets/images
+  height: 100
+  width: 100
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
