@@ -79,8 +79,8 @@ html, html[data-theme="light"] {
   --font-color: #333;
   --font-color-header: #222;
   --bg-color: white;
-  --link-color: #1a0dab;
-  --link-visited-color: purple;
+  --link-color: rgb(15, 109, 116);
+  --link-visited-color: rgb(92, 24, 219);
   --botao-color: #dedede;
   --marked-color: yellow;
   --hover-bg-color: #cccccc;
@@ -147,6 +147,7 @@ html[data-theme="dark"] {
   max-width: 100%;
   font-size: 2.2em;
     a { color: var(--font-color);
+      text-decoration: none;
     }
   }
 }
@@ -441,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--link-color);
 }
 a:visited {
@@ -449,6 +450,7 @@ a:visited {
 }
 a:hover {
   text-decoration: underline;
+  color: #005b82ff;
 }
 p, li {
   line-height: 1.8;
@@ -700,9 +702,9 @@ button {
   ul li {
     line-height: 1;
     margin-bottom: 35px;
-    padding: 10px;
     border: 2px solid #005b82ff;
-    border-radius: 5px
+    border-radius: 5px;
+    background-color: rgb(242, 246, 255);
   }
   li h2 {
     line-height: 1.2;
@@ -711,7 +713,7 @@ button {
   }
   li h2 a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     color: var(--font-color);
     font-weight: bold;
   }
@@ -730,11 +732,14 @@ button {
   border-radius: 4px;
   display: block;
 }
+.list-block {
+  padding: 10px;
+  margin-right: 10px;
+}
 .feat-img {
     object-fit: contain;
+    display: block;
     width: 100%;
-    margin-right: 10px;
-    margin-left: 10px;
 }
 
 // CSS das Tags
@@ -767,7 +772,7 @@ button {
   margin: 0 auto;
 }
 
-.MBE {background-color: rgb(250, 201, 201);}
+.Política {background-color: rgb(250, 201, 201);}
 .Notícias {background-color: rgb(248, 246, 147);}
 .Vivências {background-color: rgb(191, 241, 194);}
 .COVID-19 {background-color: rgb(235, 232, 255);}

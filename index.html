@@ -54,7 +54,7 @@ layout: wrapped
     {% for post in site.posts %}
       <li>
         <div class="post-block"> 
-        <div class="item">
+        <div class="item list-block">
           <span class="post-info-list">
             {{ post.date | date: "%-d" }} {% assign m = post.date | date: "%-m" %}
               {% case m %}
@@ -81,7 +81,7 @@ layout: wrapped
         {% endfor %}
       </div>
       <div class="item">
-          <img class="feat-img" src="{{ site.baseurl }}/assets/images/{{ post.image }}" alt="{{ post.alt | default: 'image representing a theme in this article' }}" />
+          <a href="{{ site.baseurl }}{{ post.url }}"><img class="feat-img" src="{{ site.baseurl }}/assets/images/{{ post.image }}" alt="{{ post.alt | default: 'image representing a theme in this article' }}" /></a> 
       </div>
       </div>
       </li>
